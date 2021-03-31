@@ -401,17 +401,17 @@ $(window).scroll(function() {
             'padding-left': '700px', 'opacity': '0%', 'transition': '0s'
         });
     }
-    if ( ypos > 5570 ){
+    if ( ypos > 4198 ){
         $('.manu1').css({
             'padding-left': '700px', 'opacity': '0%', 'transition': '0s'
         });
     }
-    if ( ypos > 5570 ){
+    if ( ypos > 4198 ){
         $('.lieu2').css({
             'padding-left': '700px', 'opacity': '0%', 'transition': '0s'
         });
     }
-    if ( ypos > 5570 ){
+    if ( ypos > 4198 ){
         $('.pschool2').css({
             'padding-left': '700px', 'opacity': '0%', 'transition': '0s'
         });
