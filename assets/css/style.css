@@ -1486,7 +1486,6 @@ footer>p {
         padding-left: 50px;
         font-size: 1.5rem;
         margin-left: 50px;
-        margin-top: 5px;
         grid-column-start: 2;
         grid-column-end: 5;
         grid-row-start: 35;
@@ -1497,7 +1496,7 @@ footer>p {
     .pschool1 {
         padding-left: 50px;
         font-size: 1.5rem;
-        margin-top: 40px;
+        margin-top: 20%;
         margin-left: 50px;
         grid-column-start: 2;
         grid-column-end: 5;
@@ -1509,7 +1508,7 @@ footer>p {
     .p2school1 {
         padding-left: 50px;
         font-size: 1.5rem;
-        margin-top: 75px;
+        margin-top: 40%;
         margin-left: 50px;
         grid-column-start: 2;
         grid-column-end: 5;
@@ -1664,7 +1663,7 @@ footer>p {
     .des3exp1 {
         padding-left: 45px;
         font-size: 1.5rem;
-        margin-top: 105px;
+        margin-top: 45%;
         margin-left: 50px;
         grid-column-start: 2;
         grid-column-end: 5;
@@ -1720,7 +1719,7 @@ footer>p {
     .des3exp2 {
         padding-left: 45px;
         font-size: 1.5rem;
-        margin-top: 105px;
+        margin-top: 45%;
         margin-left: 50px;
         grid-column-start: 2;
         grid-column-end: 5;
@@ -1829,30 +1828,28 @@ footer>p {
     }
 
     .mobileicon {
-        margin-left: 63%;
-        margin-top: 20%;
+        margin: auto;
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 59;
     }
 
     .tomobile {
-        margin: auto;
+        margin-left: 0%;
         grid-column-start: 2;
-        grid-column-end: 4;
+        grid-column-end: 5;
         grid-row-start: 59;
     }
 
     .mailicon {
-        margin-left: 60%;
-        margin-top: 20%;
+        margin: auto;
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 60;
     }
 
     .tomail {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         margin: auto;
         grid-column-start: 2;
         grid-column-end: 4;
@@ -1860,8 +1857,7 @@ footer>p {
     }
 
     .giticon {
-        margin-left: 63%;
-        margin-top: 20%;
+        margin: auto;
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 61;
@@ -1875,30 +1871,28 @@ footer>p {
     }
 
     .linkedinicon {
-        margin-left: 63%;
-        margin-top: 20%;
+        margin: auto;
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 62;
     }
 
     .tolinkedin {
-        margin-left: 3%;
+        margin-left: 0%;
         grid-column-start: 2;
         grid-column-end: 5;
         grid-row-start: 62;
     }
 
     .instagramicon {
-        margin-left: 63%;
-        margin-top: 20%;
+        margin: auto;
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 63;
     }
 
     .toinstagram {
-        margin-left: 3%;
+        margin-left: 0%;
         grid-column-start: 2;
         grid-column-end: 5;
         grid-row-start: 63;
