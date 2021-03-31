@@ -1169,6 +1169,7 @@ footer>p {
         grid-column-start: 1;
         grid-column-end: 5;
         grid-row-start: 8;
+        grid-row-end: 13;
         width: 75%;
         padding-right: 0;
     }
