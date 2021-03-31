@@ -1764,19 +1764,7 @@ footer>p {
     .des2exp3 {
         padding-left: 45px;
         font-size: 1.5rem;
-        margin-top: 40px;
-        margin-left: 50px;
-        grid-column-start: 2;
-        grid-column-end: 5;
-        grid-row-start: 51;
-        opacity: 0%;
-        color: white;
-    }
-
-    .des3exp3 {
-        padding-left: 45px;
-        font-size: 1.5rem;
-        margin-top: 105px;
+        margin-top: 20%;
         margin-left: 50px;
         grid-column-start: 2;
         grid-column-end: 5;
@@ -1820,19 +1808,7 @@ footer>p {
     .des2exp4 {
         padding-left: 45px;
         font-size: 1.5rem;
-        margin-top: 40px;
-        margin-left: 50px;
-        grid-column-start: 2;
-        grid-column-end: 5;
-        grid-row-start: 54;
-        opacity: 0%;
-        color: white;
-    }
-
-    .des3exp4 {
-        padding-left: 45px;
-        font-size: 1.5rem;
-        margin-top: 105px;
+        margin-top: 20%;
         margin-left: 50px;
         grid-column-start: 2;
         grid-column-end: 5;
