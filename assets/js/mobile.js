@@ -20,7 +20,7 @@ $(window).scroll(function() {
     }
     if ( ypos > 1530 ){
         $('.compdiv2').css({
-            'width': '247px', 'transition' : '3s'
+            'width': '60%', 'transition' : '3s'
         });
     }
     if ( ypos > 2380 ){
@@ -35,7 +35,7 @@ $(window).scroll(function() {
     }
     if ( ypos > 1630 ){
         $('.compdiv4').css({
-            'width': '282px', 'transition' : '3s'
+            'width': '65%', 'transition' : '3s'
         });
     }
     if ( ypos > 2480 ){
@@ -50,7 +50,7 @@ $(window).scroll(function() {
     }
     if ( ypos > 1730 ){
         $('.compdiv6').css({
-            'width': '229px', 'transition' : '3s'
+            'width': '55%', 'transition' : '3s'
         });
     }
     if ( ypos > 2580 ){
@@ -65,7 +65,7 @@ $(window).scroll(function() {
     }
     if ( ypos > 1830 ){
         $('.compdiv8').css({
-            'width': '268px', 'transition' : '3s'
+            'width': '62%', 'transition' : '3s'
         });
     }
     if ( ypos > 2680 ){
@@ -80,7 +80,7 @@ $(window).scroll(function() {
     }
     if ( ypos > 1930 ){
         $('.compdiv10').css({
-            'width': '254px', 'transition' : '3s'
+            'width': '55%', 'transition' : '3s'
         });
     }
     if ( ypos > 2780 ){
@@ -95,7 +95,7 @@ $(window).scroll(function() {
     }
     if ( ypos > 2030 ){
         $('.compdiv12').css({
-            'width': '243px', 'transition' : '3s'
+            'width': '60%', 'transition' : '3s'
         });
     }
     if ( ypos > 2880 ){
@@ -110,7 +110,7 @@ $(window).scroll(function() {
     }
     if ( ypos > 2130 ){
         $('.compdiv14').css({
-            'width': '229px', 'transition' : '3s'
+            'width': '67%', 'transition' : '3s'
         });
     }
     if ( ypos > 2980 ){
@@ -125,7 +125,7 @@ $(window).scroll(function() {
     }
     if ( ypos > 2230 ){
         $('.compdiv16').css({
-            'width': '194px', 'transition' : '3s'
+            'width': '49%', 'transition' : '3s'
         });
     }
     if ( ypos > 3080 ){
