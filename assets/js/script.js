@@ -112,7 +112,7 @@ $(window).scroll(function() {
     }
     if ( ypos > 1490 ){
         $('.compdiv2').css({
-            'width': '700px', 'transition' : '5s'
+            'width': '60%', 'transition' : '5s'
         });
     }
     if ( ypos > 2520){
@@ -127,7 +127,7 @@ $(window).scroll(function() {
     }
     if ( ypos > 1590 ){
         $('.compdiv4').css({
-            'width': '800px', 'transition' : '5s'
+            'width': '65%', 'transition' : '5s'
         });
     }
     if ( ypos > 2620){
@@ -142,7 +142,7 @@ $(window).scroll(function() {
     }
     if ( ypos > 1690 ){
         $('.compdiv6').css({
-            'width': '650px', 'transition' : '5s'
+            'width': '55%', 'transition' : '5s'
         });
     }
     if ( ypos > 2720){
@@ -157,7 +157,7 @@ $(window).scroll(function() {
     }
     if ( ypos > 1790 ){
         $('.compdiv8').css({
-            'width': '760px', 'transition' : '5s'
+            'width': '62%', 'transition' : '5s'
         });
     }
     if ( ypos > 2820){
@@ -172,7 +172,7 @@ $(window).scroll(function() {
     }
     if ( ypos > 1890 ){
         $('.compdiv10').css({
-            'width': '720px', 'transition' : '5s'
+            'width': '55%', 'transition' : '5s'
         });
     }
     if ( ypos > 2920){
@@ -187,7 +187,7 @@ $(window).scroll(function() {
     }
     if ( ypos > 1990 ){
         $('.compdiv12').css({
-            'width': '690px', 'transition' : '5s'
+            'width': '60%', 'transition' : '5s'
         });
     }
     if ( ypos > 3100){
@@ -202,7 +202,7 @@ $(window).scroll(function() {
     }
     if ( ypos > 2090 ){
         $('.compdiv14').css({
-            'width': '650px', 'transition' : '5s'
+            'width': '67%', 'transition' : '5s'
         });
     }
     if ( ypos > 3100){
@@ -217,7 +217,7 @@ $(window).scroll(function() {
     }
     if ( ypos > 2190 ){
         $('.compdiv16').css({
-            'width': '550px', 'transition' : '5s'
+            'width': '49%', 'transition' : '5s'
         });
     }
     if ( ypos > 3100){
