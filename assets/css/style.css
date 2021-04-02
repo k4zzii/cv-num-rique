@@ -34,6 +34,7 @@ header {
 }
 
 h1 {
+    margin-top: 5%;
     font-size: 3rem;
     display: flex;
     justify-content: center;
@@ -41,6 +42,7 @@ h1 {
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 1;
+    grid-row-end: 2;
 }
 
 .parcours {
@@ -106,6 +108,10 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+}
+
+.topbtn {
+    display: none;
 }
 
 .sidebar {
@@ -1155,6 +1161,17 @@ footer>p {
         display: grid;
         grid-template-columns: 25% 25% 25% 25%;
         grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    }
+
+    .topbtn {
+        display: inline-block;
+        z-index: 100;
+        position: fixed;
+        margin-top: 160%;
+        margin-left: 80%;
+        width: 50px;
+        height: 50x;
+        opacity: 50%;
     }
 
     #moi {
