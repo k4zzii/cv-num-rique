@@ -521,17 +521,17 @@ $(window).scroll(function() {
             'padding-left': '700px', 'opacity': '0%', 'transition': '0s'
         });
     }
-    if ( ypos > 4847 ){
+    if ( ypos > 4815 ){
         $('.exp3').css({
             'padding-left': '0px', 'transition': '1s', 'opacity': '100%'
         });
     }
-    if ( ypos > 4847 ){
+    if ( ypos > 4815 ){
         $('.des1exp3').css({
             'padding-left': '0px', 'transition': '1.2s', 'opacity': '100%'
         });
     }
-    if ( ypos > 4847 ){
+    if ( ypos > 4815 ){
         $('.des2exp3').css({
             'padding-left': '0px', 'transition': '1.4s', 'opacity': '100%'
         });
@@ -549,16 +549,6 @@ $(window).scroll(function() {
     if ( ypos < 4490 ){
         $('.des2exp3').css({
             'padding-left': '700px', 'opacity': '0%', 'transition': '0s'
-        });
-    }
-    if ( ypos > 4747 ){
-        $('.des1exp3').css({
-            'padding-left': '0px', 'transition': '1.2s', 'opacity': '100%'
-        });
-    }
-    if ( ypos > 4747 ){
-        $('.des2exp3').css({
-            'padding-left': '0px', 'transition': '1.4s', 'opacity': '100%'
         });
     }
     if ( ypos > 5570 ){
