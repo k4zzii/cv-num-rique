@@ -9,6 +9,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
 
 
+
 * {
     margin: 0%;
     padding: 0%;
@@ -93,11 +94,6 @@ h1>a {
     color: white;
     text-decoration: none;
     font-family: 'Syne Mono', monospace;
-}
-
-a:hover {
-    color: red;
-    transition: 1s;
 }
 
 /* Fin du header */
@@ -1149,6 +1145,10 @@ footer>p {
         font-size: 1rem;
     }
 
+    a::after {
+        display: none;
+    }
+
     .logo {
         margin: auto;
         width: 100%;
@@ -1925,10 +1925,81 @@ footer>p {
 
     /* Début du footer */
 
-    footer > p {
+    footer>p {
         text-align: center;
         margin: 5%;
         grid-column-start: 1;
         grid-column-end: 5;
+    }
+}
+
+
+@media (min-width: 1920px) {
+    .comp>a::after {
+        position: absolute;
+        background-color: white;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        content: "";
+        width: 10.5%;
+        height: 3px;
+        transform: scaleX(0);
+        transform-origin: right;
+        transition: transform 0.3s;
+    }
+
+    .exp>a::after {
+        position: absolute;
+        background-color: white;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        content: "";
+        width: 10.7%;
+        height: 3px;
+        transform: scaleX(0);
+        transform-origin: right;
+        transition: transform 0.3s;
+    }
+
+    .parcours>a::after {
+        position: absolute;
+        background-color: white;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        content: "";
+        width: 7.8%;
+        height: 3px;
+        transform: scaleX(0);
+        transform-origin: right;
+        transition: transform 0.3s;
+    }
+
+
+    .contact>a::after {
+        position: absolute;
+        background-color: white;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        content: "";
+        width: 6.8%;
+        height: 3px;
+        transform: scaleX(0);
+        transform-origin: right;
+        transition: transform 0.3s;
+    }
+
+    a:hover::after {
+        position: absolute;
+        background-color: white;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        transition: transform 0.3s;
+        transform: scaleX(1);
+        transform-origin: left;
     }
 }
